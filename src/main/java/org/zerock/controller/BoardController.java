@@ -11,10 +11,12 @@ import org.zerock.domain.BoardVO;
 import org.zerock.service.BoardService;
 
 import lombok.AllArgsConstructor;
+import lombok.extern.log4j.Log4j;
 
 @Controller
 @RequestMapping("/board")
 @AllArgsConstructor
+@Log4j
 public class BoardController {
 	
 	private BoardService service;
